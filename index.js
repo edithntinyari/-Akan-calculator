@@ -32,11 +32,11 @@ function giveAkanName () {
     alert("You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
     }
 }
-    unction getGender(){
+    function getGender(){
         var gender = document.getElementsByName("gender");
         for(i = 0; i < gender.length; i++){
             if(gender[i].checked){
-                return(gender[i].value)
+                eturn(gender[i].value)
         }
     }
 }
