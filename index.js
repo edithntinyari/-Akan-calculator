@@ -29,7 +29,7 @@ function giveAkanName () {
     }
     else if (gender === "female" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
         akanName = femaleNames[dayBorn];
-    lert("You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
+    alert("You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
     }
 }
     function getGender(){
