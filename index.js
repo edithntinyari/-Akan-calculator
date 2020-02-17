@@ -29,14 +29,14 @@ function giveAkanName () {
     }
     else if (gender === "female" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32){
         akanName = femaleNames[dayBorn];
-    alert("You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
+    lert("You were born on "+ dayOfTheWeek[dayBorn]+ " and your Akan name is " +akanName);
     }
 }
     function getGender(){
         var gender = document.getElementsByName("gender");
         for(i = 0; i < gender.length; i++){
             if(gender[i].checked){
-                eturn(gender[i].value)
+                return(gender[i].value)
         }
     }
 }
